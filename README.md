@@ -1,7 +1,7 @@
 &nbsp;
 &nbsp;
 <p align="center">
-  <img width="800" src="./assets/images/logo_conect2ai.png" />
+  <img width="800" src="./assets/images/conecta_logo.png" />
 </p>
 
 &nbsp;
@@ -81,7 +81,7 @@ CBA2026/
 ├── ios/                         # Projeto da plataforma iOS
 ├── assets/
 │   ├── images/                  # Logo e diagrama do pipeline
-│   ├── manuais/                 # 10 manuais Renault + manual multimídia (PDF)
+│   ├── manuais/                 # Instruções para baixar os manuais Renault e enviá-los ao ElevenLabs
 │   └── avaliacao/               # Benchmark, resultados LLM-as-a-Judge, gráficos, notebook
 ├── specs/
 │   └── 002-voice-assistant/     # Spec, plan, tasks, contracts, data-model
@@ -204,8 +204,7 @@ Os notebooks e dados brutos da avaliação estão em `assets/avaliacao/`:
 
 | Arquivo                                                | Descrição                                            |
 |--------------------------------------------------------|------------------------------------------------------|
-| `assets/manuais/manual-{kwid,logan,oroch,duster,kardian,zoe-eletrico,kangoo-eletrico,kwid-eletrico,megane-eletrico,boreal}.pdf` | Manuais do proprietário Renault (10 modelos) |
-| `assets/manuais/manual-multimidia.pdf`                 | Manual do sistema multimídia Renault                 |
+| `assets/manuais/README.md`                             | Onde baixar os manuais Renault ([renault.com.br/manuais.html](https://www.renault.com.br/manuais.html)) para upload na base de conhecimento do ElevenLabs (PDFs não versionados por direitos autorais) |
 | `assets/avaliacao/benchmark.txt`                       | *Benchmark* de 50 perguntas em 5 blocos temáticos    |
 | `assets/avaliacao/Resultados_Finais_CBA_Avaliados.csv` | Resultados finais pontuados pelo *LLM-as-a-Judge*    |
 | `specs/002-voice-assistant/`                           | Artefatos Spec-Kit (spec, plan, tasks, contracts)    |
