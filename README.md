@@ -6,7 +6,7 @@
 
 &nbsp;
 
-# Projeto e Avaliação de um Assistente Vocal Automotivo Baseado em RAG para Suporte Técnico Veicular
+# Automação Inteligente Veicular com Edge–Cloud AI: Um Assistente Técnico Baseado em RAG e Interação por Voz
 
 ![Flutter](https://img.shields.io/badge/Flutter-stable-02569B.svg)
 ![ElevenLabs](https://img.shields.io/badge/Voice%20Agent-ElevenLabs-1A1A1A.svg)
